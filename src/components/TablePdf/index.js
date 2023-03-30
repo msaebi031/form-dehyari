@@ -1,3 +1,5 @@
+import { useDispatch, useSelector } from "react-redux";
+import { deleteTable, fakeTable } from "../redux/data";
 import {
   Table,
   TableBody,
@@ -11,8 +13,6 @@ import {
   Tooltip,
 } from "@mui/material";
 import { Clear } from "@mui/icons-material";
-import { useDispatch, useSelector } from "react-redux";
-import { deleteTable, fakeTable } from "../redux/data";
 
 export const TablePdf = () => {
   const items = [

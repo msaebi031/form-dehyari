@@ -1,13 +1,14 @@
-import { Divider, Box, Typography, Grid } from "@mui/material";
+import { useRef } from "react";
+import PDFS from "../pdf";
+import InputTable from "./InputTable";
 import Different from "./Different";
 import Similar from "./Similar";
+
+import { Divider, Box, Typography, Grid } from "@mui/material";
 // Create rtl cache
 import rtlPlugin from "stylis-plugin-rtl";
 import { CacheProvider } from "@emotion/react";
 import createCache from "@emotion/cache";
-import InputTable from "./InputTable";
-import PDFS from "../pdf";
-import { useRef } from "react";
 
 const Inputs = () => {
   const cacheRtl = createCache({

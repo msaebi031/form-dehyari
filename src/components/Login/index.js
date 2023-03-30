@@ -1,10 +1,9 @@
 import Router from "next/router";
-
 import { errorTost, successTost, warningTost } from "../utils/reactTostify";
+import axios from "../utils/ConfigAxios";
 
 import { LockOutlined } from "@mui/icons-material";
 import { Avatar, Box, Button, Container, Input, Typography } from "@mui/material";
-import axios from "../utils/ConfigAxios";
 
 export default function Login() {
   const handleSubmit = async (event) => {

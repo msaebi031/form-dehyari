@@ -1,9 +1,9 @@
-import { Healing, MergeType, Numbers } from "@mui/icons-material";
-import { Box, Button, FormControl, Grid, InputAdornment, InputLabel, OutlinedInput } from "@mui/material";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fakeTable, table as tables } from "../redux/data";
 import { successTost, warningTost } from "../utils/reactTostify";
+import { Healing, MergeType, Numbers } from "@mui/icons-material";
+import { Box, Button, FormControl, Grid, InputAdornment, InputLabel, OutlinedInput } from "@mui/material";
 
 const InputTable = () => {
   const [type, setType] = useState("");
