@@ -2,7 +2,7 @@
 
 To install and run, first edit the 
 ```bash
-env
+.env
 ```
 file
 
